@@ -18,7 +18,7 @@ var counter = {
 function countLetters(counter, sample_text){
   // FIX ME
   if(sample_text.length === 0){
-    return counter;
+    return;
   }
   const character = sample_text.charAt(0).toLowerCase();
   if(counter.hasOwnProperty(character)){
